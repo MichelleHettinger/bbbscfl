@@ -37,22 +37,17 @@ app.get('/', function(req,res) {
   res.render('index');
 });
 
-app.get('/bbbs1', function(req,res) {
-  res.render('bbbs1');
+app.get('/aboutUs', function(req,res) {
+  res.render('aboutUs');
 });
 
-app.get('/bbbs2', function(req,res) {
-  res.render('bbbs2');
+app.get('/events', function(req,res) {
+  res.render('events');
 });
 
-app.get('/bbbs3', function(req,res) {
-  res.render('bbbs3');
+app.get('/donate', function(req,res) {
+  res.render('donate');
 });
-
-app.get('/bbbs4', function(req,res) {
-  res.render('bbbs4');
-});
-
 
 ///
 //List on port 3002 or heroku port and log it out
