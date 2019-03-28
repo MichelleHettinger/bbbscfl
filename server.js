@@ -32,21 +32,20 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 
 //ROUTES HERE
-//Root (www.michellesnirvana.com or michellesnirvana.com)
 app.get('/', function(req,res) {
-  res.render('index');
+  res.render('home');
 });
 
-app.get('/about', function(req,res) {
+app.get('/aboutUs', function(req,res) {
   res.render('about');
 });
 
 app.get('/events', function(req,res) {
-  res.render('events');
+  res.render('eventsBigs');
 });
 
 app.get('/donate', function(req,res) {
-  res.render('donate');
+  res.render('donateBigs');
 });
 
 ///
