@@ -27,16 +27,24 @@
 .centerDivContents{
   text-align:center;
 }
-
+li{
+  color:white;
+}
 body {
   background-color: black;
   opacity: 0.82;
 }
-
+p {
+  color:white;
+  text-align: left;
+  opacity: 1;
+}
 h1 {
+  color:#02fc87;
+}
+h2 {
   color:white;
 }
-
 h3 {
   color:#02fc87;
   font-weight:bold;
@@ -69,4 +77,12 @@ h4 {
 
 .text-light {
   color: white;
+}
+
+border-bottom, border-top {
+  opacity: 0.05;
+}
+
+.textAlignStart {
+  text-align: start;
 }
