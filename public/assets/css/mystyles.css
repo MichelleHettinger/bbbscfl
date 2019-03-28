@@ -28,7 +28,45 @@
   text-align:center;
 }
 
+body {
+  background-color: black;
+  opacity: 0.82;
+}
+
+h1 {
+  color:white;
+}
+
 h3 {
   color:#02fc87;
   font-weight:bold;
+  font-size:30px;
+}
+
+h4 {
+  color: white;
+}
+
+.imgBackJoin {
+  opacity: 0.9;
+  background-image:url('../img/WEDD3439.jpg');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position-y:-342px;
+}
+.imgBackDefend {
+  opacity: 0.9;
+  background-image:url('../img/WEDD3097.jpg');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position-y:-380px;
+}
+
+.meet2019 {
+  width:1140px;
+  margin-left:350px
+}
+
+.text-light {
+  color: white;
 }
