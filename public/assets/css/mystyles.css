@@ -33,14 +33,19 @@ li{
 body {
   background-color: black;
   opacity: 0.82;
+  font-family: "Open-Sans";
 }
 p {
   color:white;
   text-align: left;
   opacity: 1;
+  font-size: 20px;
+  font-weight: normal;
+  z-index:10000;
 }
 h1 {
   color:#02fc87;
+  font-weight: normal
 }
 h2 {
   color:white;
@@ -85,4 +90,9 @@ border-bottom, border-top {
 
 .textAlignStart {
   text-align: start;
+}
+
+.millionsChildren{
+  padding-left: 278px;
+  padding-right: 278px;
 }
