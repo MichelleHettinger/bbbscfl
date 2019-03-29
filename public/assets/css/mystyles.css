@@ -41,7 +41,6 @@ p {
   opacity: 1;
   font-size: 20px;
   font-weight: normal;
-  z-index:10000;
 }
 h1 {
   color:#02fc87;
