@@ -30,6 +30,12 @@
 li{
   color:white;
 }
+ul li {
+  color:#02fc87;
+}
+li > p {
+    margin:0;
+}
 body {
   background-color: black;
   opacity: 0.82;
@@ -39,7 +45,7 @@ p {
   color:white;
   text-align: left;
   opacity: 1;
-  font-size: 20px;
+  font-height: 19px;
   font-weight: normal;
 }
 h1 {
