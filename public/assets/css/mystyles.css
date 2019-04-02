@@ -40,6 +40,7 @@ ul li {
 }
 li > p {
     margin:0;
+    text-align: left;
 }
 body {
   background-color:rgb(10,10,18);
@@ -81,10 +82,18 @@ h4 {
   background-repeat: no-repeat;
   background-position-y:-380px;
 }
-
-.meet2019 {
-  width:1140px;
-  margin-left:350px
+.imgCollage{
+  background-image:url('../img/BeFunky-collage.png');
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 800px;
+  padding:0;
+}
+.imgBigThings{
+  background-image:url('../img/First005 Maria+Jazmin.jpg');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  background-position-y:-145px;
 }
 
 .text-light {
