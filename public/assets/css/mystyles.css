@@ -1,11 +1,12 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(10,10,24);
+  filter:brightness(90%);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  color:white;
+  z-index:1000;
 }
 
 /* Links inside the navbar */
@@ -23,10 +24,14 @@
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
-
-.centerDivContents{
-  text-align:center;
+#youtubeFrame{
+  border-top: solid 2px #02fc87;
+  border-right: solid 2px #02fc87;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  padding:0px;
 }
+
 li{
   color:white;
 }
@@ -37,14 +42,11 @@ li > p {
     margin:0;
 }
 body {
-  background-color: black;
-  opacity: 0.82;
+  background-color:rgb(10,10,18);
   font-family: "Open-Sans";
 }
 p {
   color:white;
-  text-align: left;
-  opacity: 1;
   font-height: 19px;
   font-weight: normal;
 }
@@ -53,7 +55,7 @@ h1 {
   font-weight: normal
 }
 h2 {
-  color:white;
+  color:#02fc87;
 }
 h3 {
   color:#02fc87;
@@ -64,16 +66,16 @@ h3 {
 h4 {
   color: white;
 }
-
+.centerDivContents{
+  text-align:center !important;
+}
 .imgBackJoin {
-  opacity: 0.9;
   background-image:url('../img/WEDD3439.jpg');
   background-size:100% auto;
   background-repeat: no-repeat;
   background-position-y:-342px;
 }
 .imgBackDefend {
-  opacity: 0.9;
   background-image:url('../img/WEDD3097.jpg');
   background-size:100% auto;
   background-repeat: no-repeat;
@@ -94,12 +96,14 @@ border-bottom, border-top {
 }
 
 .textAlignStart {
-  text-align: start;
+  text-align:start;
 }
-
+.textAlignCenter {
+  text-align:center;
+}
 .millionsChildren{
-  padding-left: 278px;
-  padding-right: 278px;
+  color:black;
+  margin:0;
 }
 
 .btn-link{
