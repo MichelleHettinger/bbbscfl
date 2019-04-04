@@ -5,7 +5,7 @@
   filter:brightness(90%);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 100vw; /* Full width */
   z-index:1000;
 }
 
@@ -23,15 +23,6 @@
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-.container {
-    overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE 10+ */
-}
-::-webkit-scrollbar { /* WebKit */
-    width: 0;
-    height: 0;
 }
 
 
@@ -138,4 +129,8 @@ border-bottom, border-top {
 
 .btn-link{
   color:white;
+}
+
+.row {
+  margin:auto;
 }
