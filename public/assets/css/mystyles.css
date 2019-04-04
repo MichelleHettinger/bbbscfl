@@ -24,6 +24,18 @@
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+.container {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+
+
 #youtubeFrame{
   border-top: solid 2px #02fc87;
   border-right: solid 2px #02fc87;
@@ -94,6 +106,15 @@ h4 {
   background-size:100% auto;
   background-repeat: no-repeat;
   background-position-y:-145px;
+}
+
+.imgHeaderBrand{
+  background-image:url('../img/RBG-Tagline-Igniting-Potential-White-Green.svg');
+  background-size:100% auto;
+  min-height: 105px;
+  background-repeat: no-repeat;
+  width: 220px;
+  z-index: 999;
 }
 
 .text-light {
