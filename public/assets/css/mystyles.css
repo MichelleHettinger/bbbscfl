@@ -53,6 +53,8 @@ p {
   color:white;
   font-height: 19px;
   font-weight: normal;
+  filter: brightness(170%);
+  filter: opacity(1);
 }
 h1 {
   color:#02fc87;
@@ -78,13 +80,17 @@ h4 {
   background-size:100% auto;
   background-repeat: no-repeat;
   background-position-y:-342px;
+  filter: opacity(0.75);
 }
 .imgBackDefend {
   background-image:url('../img/WEDD3097.jpg');
   background-size:100% auto;
   background-repeat: no-repeat;
-  background-position-y:-380px;
+  background-position:center;
+  background-color: black;
+  filter: opacity(0.8);
 }
+
 .imgCollage{
   background-image:url('../img/BeFunky-collage.png');
   background-repeat: no-repeat;
@@ -133,4 +139,26 @@ border-bottom, border-top {
 
 .row {
   margin:auto;
+}
+
+.colorBlack{
+  color: black;
+  filter: brightness(200%);
+  font-height: 19px;
+  font-weight: normal;s
+  filter: opacity(1);
+}
+.colorWhite{
+  color: white;
+  filter: brightness(100%)
+  font-height: 19px;
+  font-weight: normal;
+  filter: opacity(1);
+}
+.colorTheme{
+  color: #02fc87;
+  filter: brightness(200%);
+  font-height: 19px;
+  font-weight: normal;
+  filter: opacity(1);
 }
